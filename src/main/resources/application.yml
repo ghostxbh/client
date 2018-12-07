@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  #自定义链接地址
+#  instance:
+#    hostname: clientName
+
+#改变服务名称
+spring:
+  application:
+    name: client
